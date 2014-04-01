@@ -4,11 +4,12 @@ var mongoose = require('mongoose')
 var postSchema = new Schema({
   title: String,
   body: String,
-  timestamp: Date
+  timestamp: Date,
+  author: String
 });
 
 postSchema.statics.findTopTen = function(callback){
-  this.find({}).sort('-timestamp').limit(10).exec(callback);
+  this.find({}).sort({timestamp: -1}).limit(10).exec(callback);
 }
 
 exports.postModel = mongoose.model('Post', postSchema);

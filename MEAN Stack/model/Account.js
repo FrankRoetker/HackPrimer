@@ -3,7 +3,7 @@ var mongoose = require('mongoose')
   , LocalStrategy = require('passport-local').Strategy
   , passportLocalMongoose = require('passport-local-mongoose');
 
-var accountSchema = new Schema({ });
+var accountSchema = new Schema({ username: String });
 
 accountSchema.plugin(passportLocalMongoose);
 

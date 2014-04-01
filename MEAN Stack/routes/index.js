@@ -19,6 +19,7 @@ module.exports = function(app){
   //Home
   app.get('/', function(req, res){
     Post.findTopTen(function(err, posts){
+      console.log(posts);
       res.render('index',{
         title: 'Home',
         posts: posts,
