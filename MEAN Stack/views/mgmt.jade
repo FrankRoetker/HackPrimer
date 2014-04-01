@@ -1,0 +1,28 @@
+extends ./layout
+
+block content
+  div(ng-app, ng-controller="ManageCtrl", ng-init="init(#{JSON.stringify(posts)})").row.center.full-width.full-height.head-room
+
+    div.page-width-max.center
+      div.col-md-4
+        div.panel.panel-dark
+          div.panel-heading
+            button(ng-click="savePosts()").btn.btn-default
+              span Save Posts
+          ul(ng-repeat="post in posts").list-group
+            li(ng-click="selectPost($index)").list-group-item.dark-text {{post.title}}
+          div.panel-footer.center-text
+            a(href ng-click='createPost()').btn.btn-link
+              span.glyphicon.glyphicon-plus
+  
+      div.col-md-8
+        div.well.well-dark
+          div.input-group
+            span.input-group-addon Title
+            input(type='text', placeholder="Title", ng-model='posts[selectedPost].title').form-control
+          textarea(placeholder='body', ng-model='posts[selectedPost].body').form-control.full-width.small-head-room stuff
+          button(ng-click="deletePost()").btn.btn-default
+            span Delete Current Post
+
+block head
+  script(src="/javascripts/manage.js")

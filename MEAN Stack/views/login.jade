@@ -1,0 +1,8 @@
+extends ./layout
+
+block content
+  form(action="/login",method='post').form-signin.card.head-room.center
+    h2.form-singin-heading.center-text Please Login
+    input(type='text', name='username', placeholder='Username', autofocus)#username.form-control
+    input(type='password', name='password', placeholder='Password')#password.form-control
+    button(type='submit', name='login-button')#LoginButton.btn.btn-lg.btn-block Login

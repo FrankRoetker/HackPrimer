@@ -1,0 +1,133 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  background: url("/images/background.png") top center no-repeat;
+  background-color: #fff;
+}
+a:hover {
+  text-decoration: none;
+}
+.input-group-addon {
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+.panel-dark,
+.well-dark {
+  background-color: #505050 !important;
+  border: 1px solid #7f8c8d !important;
+}
+.full-width {
+  width: 100%;
+}
+.full-height {
+  height: 100%;
+}
+.width50 {
+  width: 50%;
+}
+.page-width {
+  width: 970px;
+}
+.page-width-max {
+  max-width: 970px;
+  min-width: 500px;
+}
+.center-text {
+  text-align: center;
+}
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+.superscript {
+  font-size: x-small;
+  vertical-align: text-top;
+}
+.subscript {
+  font-size: x-small;
+  vertical-align: text-bottom;
+}
+.head-room {
+  margin-top: 50px;
+}
+.small-head-room {
+  margin-top: 10px;
+}
+.padding-space {
+  padding: 20px;
+}
+.margin-space {
+  margin: 10px;
+}
+.panel-heading {
+  color: #ecf0f1 !important;
+  background: #505050 !important;
+  background-color: #505050 !important;
+}
+.padding-small {
+  padding: 5px !important;
+}
+.invisible {
+  opacity: 0 !important;
+  height: 0px !important;
+  pointer-events: none !important;
+  padding: 0px !important;
+  border: 0px !important;
+}
+.red {
+  color: #c0392b;
+}
+.dark-text {
+  color: #2c3e50;
+}
+.card {
+  float: none;
+  color: #2c3e50;
+  top: 0;
+  left: 0;
+  z-index: 800;
+  border: 1px solid #ccc;
+  background: #ecf0f1;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.9);
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  height: 295px;
+}
+.form-singin-heading {
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+.form-signin .form-control -webkit-box-sizing border-box -moz-box-sizing border-box {
+  box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.oddPost {
+  background-color: #bdc3c7;
+}
