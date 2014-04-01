@@ -1,6 +1,6 @@
 ## Intro
 
-This project is an example project for a talk that I gave to the Rose-Hulman Hackers Club on the 1^st^ of April, 2014. It is a web app diary for my roommate Elijah Beard so that he can share is deepest darkest secrets. 
+This project is an example project for a talk that I gave to the Rose-Hulman Hackers Club on the 1st of April, 2014. It is a web app diary for my roommate Elijah Beard so that he can share is deepest darkest secrets. 
 
 The accompanying presentation can be viewed [here](https://docs.google.com/presentation/d/1DdF4emj6abN8JWa-jfO2NDjs5eO2IpGKJevpC7bHMiQ/edit#slide=id.g1df17284e_033).
 
